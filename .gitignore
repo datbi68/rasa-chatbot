@@ -1,6 +1,5 @@
 __pycache__/
 *.pyc
 .rasa/
-models/*.tar.gz
 results/
 tests/
