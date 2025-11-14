@@ -1,0 +1,57 @@
+version: "3.1"
+
+stories:
+  - story: Thông tin cán bộ
+    steps:
+      - intent: thong_tin_can_bo
+      - action: utter_thong_tin_can_bo
+
+  - story: Cơ sở vật chất
+    steps:
+      - intent: co_so_vat_chat
+      - action: utter_co_so_vat_chat
+
+  - story: Chương trình đào tạo
+    steps:
+      - intent: chuong_trinh_dao_tao
+      - action: utter_chuong_trinh_dao_tao
+
+  - story: Hoạt động sinh viên
+    steps:
+      - intent: hoat_dong_sinh_vien
+      - action: utter_hoat_dong_sinh_vien
+
+  - story: Thông tin chung khoa
+    steps:
+      - intent: thong_tin_chung_khoa
+      - action: utter_thong_tin_chung_khoa
+
+  - story: Thông tin tuyển sinh
+    steps:
+      - intent: thong_tin_tuyen_sinh
+      - action: utter_thong_tin_tuyen_sinh
+
+  - story: Điểm sàn tuyển sinh
+    steps:
+      - intent: diem_san_tuyen_sinh
+      - action: utter_diem_san_tuyen_sinh
+
+  - story: Điểm trúng tuyển năm
+    steps:
+      - intent: diem_trung_tuyen_nam
+      - action: utter_diem_trung_tuyen_nam
+
+  - story: Ngành đào tạo
+    steps:
+      - intent: nganh_dao_tao
+      - action: utter_nganh_dao_tao
+
+  - story: Lịch sử điểm trúng tuyển
+    steps:
+      - intent: lich_su_diem_trung_tuyen
+      - action: utter_lich_su_diem_trung_tuyen
+
+  - story: Mặc định
+    steps:
+      - intent: nlu_fallback
+      - action: utter_default

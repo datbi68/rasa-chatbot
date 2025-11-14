@@ -1,0 +1,51 @@
+version: "3.1"
+
+intents:
+  - thong_tin_can_bo
+  - co_so_vat_chat
+  - chuong_trinh_dao_tao
+  - hoat_dong_sinh_vien
+  - thong_tin_chung_khoa
+  - thong_tin_tuyen_sinh
+  - diem_san_tuyen_sinh
+  - diem_trung_tuyen_nam
+  - nganh_dao_tao
+  - lich_su_diem_trung_tuyen
+
+responses:
+  utter_thong_tin_can_bo:
+  - text: "Các cán bộ, giảng viên được đào tạo tại các cơ sở uy tín trong nước và quốc tế gồm có 2 Phó giáo sư, 8 Tiến sĩ, 9 Thạc sĩ (4 Nghiên cứu sinh)."
+
+  utter_co_so_vat_chat:
+  - text: "Khoa có 16 phòng máy, 2 phòng thí nghiệm chất lượng cao phục vụ cho công tác đào tạo và nghiên cứu khoa học."
+
+  utter_chuong_trinh_dao_tao:
+  - text: "Hệ thống đào tạo của Khoa bao gồm: 3 chương trình đào tạo Cử nhân, 2 chương trình đào tạo Thạc sĩ, 2 chương trình đào tạo Tiến sĩ."
+
+  utter_hoat_dong_sinh_vien:
+  - text: "Hàng năm, có nhiều hoạt động dành cho sinh viên, học viên: Hội nghị sinh viên nghiên cứu khoa học, tuần nghiệp vụ sư phạm, ..."
+
+  utter_thong_tin_chung_khoa:
+  - text: "Khoa Công nghệ Thông tin tại Trường Đại học Sư phạm Hà Nội là một nơi năng động và sáng tạo. Chúng tôi tận tâm đào tạo và trang bị cho sinh viên kiến thức chuyên sâu về lĩnh vực Công nghệ Thông tin, từ phát triển ứng dụng đến quản lý hệ thống thông tin. Với đội ngũ giảng viên giàu kinh nghiệm và chuyên môn, chúng tôi cam kết mang đến cho sinh viên môi trường học tập và nghiên cứu thú vị, cùng những cơ hội thực tập và phát triển sự nghiệp trong ngành Công nghệ Thông Tin đầy hứa hẹn. FIT HNUE tự hào là nơi khơi nguồn cho những tương lai tài năng và sáng tạo trong lĩnh vực Công nghệ Thông Tin tại Việt Nam."
+
+  utter_thong_tin_tuyen_sinh:
+  - text: "Tổng chỉ tiêu tuyển sinh: 240\nChỉ tiêu tuyển sinh Ngành Sư phạm Tin học: 120\nChỉ tiêu tuyển sinh Ngành Công nghệ thông tin: 120\nĐiểm sàn: 21 đối với cả 2 ngành."
+
+  utter_diem_san_tuyen_sinh:
+  - text: "Điểm sàn năm 2024-2025 là 21 điểm."
+
+  utter_diem_trung_tuyen_nam:
+  - text: "Ngành Công nghệ thông tin:\n- Tổ hợp xét tuyển A00: 24.10 điểm\n- Tổ hợp xét tuyển A01: 24.10 điểm\nNgành Sư phạm Tin học:\n- Tổ hợp xét tuyển A00: 25.10 điểm\n- Tổ hợp xét tuyển A01: 25.10 điểm"
+
+  utter_nganh_dao_tao:
+  - text: "Các ngành đào tạo của khoa bao gồm:\n- Công nghệ thông tin: Đào tạo các cử nhân có kiến thức chuyên ngành về một trong hai định hướng: Công nghệ phần mềm và Khoa học dữ liệu.\n- Sư phạm Tin học: Đào tạo các giảng viên, nghiên cứu viên tại các trường đại học, viện nghiên cứu; giáo viên Tin học các cấp.\n- Sư phạm Tin học dạy bằng Tiếng Anh: Đào tạo các giảng viên, nghiên cứu viên có khả năng giảng dạy CNTT, Tin học bằng tiếng Anh tại các trường quốc tế."
+
+  utter_lich_su_diem_trung_tuyen:
+  - text: "Điểm trúng tuyển 3 năm gần đây của khoa Công nghệ thông tin:\nNgành Công nghệ thông tin năm 2021-2022 \n- Tổ hợp xét tuyển A00: 22.15 điểm\n- Tổ hợp xét tuyển A01: 21.8 điểm\nNgành Sư phạm Tin học năm 2021-2022 \n- Tổ hợp xét tuyển A00: 21.35 điểm\n- Tổ hợp xét tuyển A01: 21 điểm\nNgành Công nghệ thông tin năm 2022-2023 \n- Tổ hợp xét tuyển A00: 23.9 điểm\n- Tổ hợp xét tuyển A01: 23.85 điểm\nNgành Sư phạm Tin học năm 2022-2023 \n- Tổ hợp xét tuyển A00: 23.55 điểm\n- Tổ hợp xét tuyển A01: 23.45 điểm\nNgành Công nghệ thông tin năm 2023-2024  \n- Tổ hợp xét tuyển A00: 23.7 điểm\n- Tổ hợp xét tuyển A01: 23.56 điểm\nNgành Sư phạm Tin học năm 2023-2024 \n- Tổ hợp xét tuyển A00: 24.2 điểm\n- Tổ hợp xét tuyển A01: 23.66 điểm"
+
+  utter_default:
+  - text: "Xin lỗi, tôi không hiểu, vui lòng dạy tôi!"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
